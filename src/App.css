@@ -1,0 +1,13 @@
+/* styles.css */
+.placeholder-text-sm::placeholder {
+    font-size: 0.7rem; /* Tailwind's text-sm equivalent */
+  }
+
+  @media (min-width:780px){
+    .placeholder-text-lg::placeholder {
+        font-size: 1rem; /* Tailwind's text-lg equivalent */
+      }
+      
+  }
+  
+  
